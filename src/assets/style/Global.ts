@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Barlow Semi Condensed', sans-serif;
     margin: 0;
     min-height: 100vh;
-    color: ${({ theme }) => theme.colors.black};
+    color: white;
   }
   
   a {

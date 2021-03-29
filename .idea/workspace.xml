@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Style init">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-paper.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-rock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-scissors.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/image-rules.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/View/MainView/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/BigText.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/XButton.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rules/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rules/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/TestWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/data.ts" afterDir="false" />
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Create Rules">
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/ScoreTile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/ScoreTile/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Title/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/Score.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/View/MainView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rules/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rules/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rules/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rules/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +30,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -80,6 +82,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\components\molecules" />
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\components\organisms" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\assets\icons" />
     </key>
   </component>
@@ -119,7 +123,7 @@
       <workItem from="1616661074034" duration="3033000" />
       <workItem from="1616683841806" duration="7822000" />
       <workItem from="1617028215672" duration="4632000" />
-      <workItem from="1617035864953" duration="3971000" />
+      <workItem from="1617035864953" duration="8549000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617028935605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create Rules">
+      <created>1617042397148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617042397148</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +227,8 @@
     <MESSAGE value="Add eslint (no prettier)" />
     <MESSAGE value="Add react-helmet primary for add fonts" />
     <MESSAGE value="Style init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style init" />
+    <MESSAGE value="Create Rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Rules" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

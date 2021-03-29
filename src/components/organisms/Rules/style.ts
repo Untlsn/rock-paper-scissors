@@ -1,5 +1,6 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import BigTextBody from '@atoms/BigText';
+import BorderButtonBody from '@atoms/BorderButton';
 export { default as XButton } from '@atoms/XButton';
 
 export const Background = styled.div<{ see: boolean }>`
@@ -12,9 +13,13 @@ export const Background = styled.div<{ see: boolean }>`
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.3);
-  
-  opacity: ${({ see }) => see ? 1 : 0};
+  opacity: 0;
+  z-index: -1;
   transition: opacity .5s;
+  ${({ see }) => see && css`
+    opacity: 1;
+    z-index: 0;
+  `}
 `;
 
 export const Wrapper = styled.div`
@@ -32,4 +37,9 @@ export const Img = styled.img.attrs({ alt: '' })`
 `;
 export const BigText = styled(BigTextBody)`
   color: ${({ theme }) => theme.colors.darkText};
+`;
+export const BorderButton = styled(BorderButtonBody)`
+  position: absolute;
+  bottom: 1em;
+  right: 1em;  
 `;

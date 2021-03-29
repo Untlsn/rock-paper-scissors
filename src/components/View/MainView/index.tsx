@@ -1,16 +1,15 @@
 import React from 'react';
 import * as S from './style';
-import Rules from '@molecules/Rules';
-import { useBoolState } from '@hooks/all';
+import Rules from '@organisms/Rules';
+import Header from '@organisms/Header';
 
 const MainView = () => {
-  const [seeRules, changeSeeRules] = useBoolState();
   return (
     <>
-      <Rules see={seeRules} changeSee={changeSeeRules} />
-      <S.Wrapper />
-      <S.BorderButton
-        onClick={() => changeSeeRules(true)}>rules</S.BorderButton>
+      <Rules />
+      <S.CenterFlex>
+        <Header />
+      </S.CenterFlex>
     </>
   );
 };
