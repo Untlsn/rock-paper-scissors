@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Add react-helmet primary for add fonts">
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Style init">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-paper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-rock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-scissors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/image-rules.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/View/MainView/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BigText.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/XButton.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rules/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rules/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/TestWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +29,7 @@
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -67,6 +78,11 @@
     <property name="ts.external.directory.path" value="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\assets\icons" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -102,7 +118,8 @@
       <workItem from="1616570141631" duration="344000" />
       <workItem from="1616661074034" duration="3033000" />
       <workItem from="1616683841806" duration="7822000" />
-      <workItem from="1617028215672" duration="591000" />
+      <workItem from="1617028215672" duration="4632000" />
+      <workItem from="1617035864953" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -153,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616693158862</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Style init">
+      <created>1617028935605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617028935605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +215,8 @@
     <MESSAGE value="add useBoolState" />
     <MESSAGE value="Add eslint (no prettier)" />
     <MESSAGE value="Add react-helmet primary for add fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add react-helmet primary for add fonts" />
+    <MESSAGE value="Style init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
