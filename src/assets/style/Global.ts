@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     margin: 0;
     min-height: 100vh;
     color: ${({ theme }) => theme.colors.black};
