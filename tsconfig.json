@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": ["*"],
+      "@pages/*": ["pages/*"],
+      "@hooks/*": ["hooks/*"],
+      "@helpers/*": ["helpers/*"],
+      "@providers/*": ["providers/*"],
+      "@interfaces/*": ["interfaces/*"],
+
+      "@assets/*":  ["assets/*"],
+      "@style/*":  ["assets/style/*"],
+
+      "@components/*": ["components/*"],
+      "@atoms/*": ["components/atoms/*"],
+      "@molecules/*":  ["components/molecules/*"],
+      "@organisms/*": ["components/organisms/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
