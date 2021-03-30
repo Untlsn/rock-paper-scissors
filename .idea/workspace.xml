@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Create HandTriangle">
-      <change afterPath="$PROJECT_DIR$/src/components/View/MainView/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/types.d.ts" afterDir="false" />
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Create Template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/MainView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/BorderButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/BorderButton.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/HandCircle/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/HandCircle/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/HandCircle/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/all.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/all.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/XButton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/XButton.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/ScoreTile/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ScoreTile/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/ChoseWrapper/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Rules/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rules/style.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +118,7 @@
       <workItem from="1617035864953" duration="8549000" />
       <workItem from="1617085669354" duration="2507000" />
       <workItem from="1617117285830" duration="1577000" />
-      <workItem from="1617119144164" duration="14481000" />
+      <workItem from="1617119144164" duration="15867000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -199,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617122140387</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create Template">
+      <created>1617133935090</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617133935090</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +229,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Create Template" />
     <MESSAGE value="add yarn" />
     <MESSAGE value="Add interfaces and little change in code" />
     <MESSAGE value="add useBoolState" />
@@ -240,7 +237,8 @@
     <MESSAGE value="Style init" />
     <MESSAGE value="Create Rules" />
     <MESSAGE value="Create HandTriangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create HandTriangle" />
+    <MESSAGE value="Create Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Template" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

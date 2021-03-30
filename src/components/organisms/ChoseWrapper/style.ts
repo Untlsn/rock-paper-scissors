@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
     from { opacity: 0 }
     to { opacity: 1 }
   `} .5s ease-in-out;
+  @media (orientation: portrait) {
+    font-size: 1.5em;
+    gap: 5em;
+  }
 `;
 export const Side = styled.div`
   text-align: center;
@@ -61,5 +65,9 @@ export const WhoWin = styled.div`
   span {
     font-size: 3em;
     text-shadow: rgba(0,0,0,.1) -.2em .2em .2em;
+  }
+  @media (orientation: portrait) {
+    font-size: 1.5em;
+    top: 20em;
   }
 `;

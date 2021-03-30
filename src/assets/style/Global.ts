@@ -12,6 +12,12 @@ const GlobalStyle = createGlobalStyle`
     color: white;
     overflow: hidden;
   }
+
+  html {
+    @media (orientation: portrait) {
+      font-size: .5rem;
+    }
+  }
   
   a {
     color: inherit;

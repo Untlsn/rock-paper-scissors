@@ -13,11 +13,17 @@ export const Wrapper = styled.div`
     from { opacity: 0 }
     to { opacity: 1 }
   `} .5s ease-in-out;
+
+  @media (orientation: portrait) {
+    margin-top: 6em;
+    font-size: 1.6em;
+  }
 `;
 export const Triangle = styled.img.attrs({ src: bgTriangle, alt: '' })`
   position: absolute;
   top: 0;
   left: 0;
+  height: 20em;
 `;
 const HandCircle = styled(HandCircleBody)`
   position: absolute;

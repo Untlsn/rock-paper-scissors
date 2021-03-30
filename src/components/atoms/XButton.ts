@@ -5,6 +5,9 @@ const XButton = styled.div`
   width: 0;
   height: 0;
   opacity: .5;
+  @media (orientation: portrait) {
+    left: .5em;
+  }
   
   &::before, &::after {
     content: '';

@@ -2,8 +2,9 @@ import styled, { css } from 'styled-components';
 
 const BorderButton = styled.div<{ fill?: boolean }>`
   border: white solid .1em;
+  text-align: center;
   text-transform: uppercase;
-  padding: .5em 3em;
+  padding: .5em 0;
   border-radius: .5em;
   font-size: 1.3em;
   ${({ fill, theme }) => fill 

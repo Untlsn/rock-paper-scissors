@@ -52,6 +52,7 @@ export const Image = styled.img.attrs({ alt: '' })`
   ${absoluteCenter};
   position: absolute;
   z-index: 1;
+  height: 4em;
 `;
 
 export const HardLight = styled.div<{ show?: boolean }>`
@@ -64,9 +65,9 @@ export const HardLight = styled.div<{ show?: boolean }>`
   z-index: -1;
   background: radial-gradient(
     closest-side,
-    rgba(255,255,255, .5) 0%, rgba(255,255,255, .5) 50%,
-    rgba(255,255,255, .2) 50%, rgba(255,255,255, .2) 70%,
-    rgba(255,255,255, .05) 70%, rgba(255,255,255, .05) 100%
+    rgba(255,255,255, .1) 0%, rgba(255,255,255, .12) 50%,
+    rgba(255,255,255, .05) 50%, rgba(255,255,255, .07) 70%,
+    rgba(255,255,255, .02) 70%, rgba(255,255,255, .05) 100%
   );
   transform: scale(0);
   ${({ show }) => show && css`
