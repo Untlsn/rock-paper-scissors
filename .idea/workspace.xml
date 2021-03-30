@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Create Rules">
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ScoreTile/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ScoreTile/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Title/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Title/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/Score.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/bg-triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/HandCircle/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/HandsWrapper/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/style/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/MainView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/MainView/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rules/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rules/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rules/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rules/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +23,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -82,9 +75,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\assets\icons" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\components\molecules" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\components\organisms" />
-      <recent name="D:\Programing-Project\JavaScript\Gatsby\rock-paper-scissors\src\assets\icons" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,6 +117,9 @@
       <workItem from="1616683841806" duration="7822000" />
       <workItem from="1617028215672" duration="4632000" />
       <workItem from="1617035864953" duration="8549000" />
+      <workItem from="1617085669354" duration="2507000" />
+      <workItem from="1617117285830" duration="1577000" />
+      <workItem from="1617119144164" duration="2941000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>

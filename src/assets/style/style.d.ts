@@ -13,10 +13,14 @@ declare module 'styled-components' { // Add own themes (remember to copy it to t
         scissors: ['#ec9e0e', '#eca922' ],
         paper: ['#4865f4', '#5671f5' ],
         rock: ['#dc2e4e', '#dd405d' ],
-        lizard: ['#834fe3', '#8c5de5' ],
-        cyan: ['#40b9ce', '#52bed1' ],
-        radialGradient: ['#1f3756', '#141539']
-      }
+        radialGradient: ['#1f3756', '#141539'],
+      },
+      shadows: {
+        white: '#babfd2',
+        paper: '#2945c2',
+        rock: '#9f1633',
+        scissors: '#ba6f2b',
+      },
     }
   }
 }
