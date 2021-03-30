@@ -5,8 +5,12 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   border-radius: 1em;
   border: .2em solid ${({ theme }) => theme.colors.headerOutline};
+  width: 50em;
   
   position: relative;
   top: 3em;
-  margin: 0 20em;
+  margin-bottom: 10em;
+  &:hover {
+    cursor: context-menu;
+  }
 `;

@@ -1,6 +1,10 @@
-export type colorTypes = 'scissors'|'paper'|'rock'
+import { MouseEvent } from 'react';
+
+export type HandType = 'scissors'|'paper'|'rock'
 export interface HandCircleProps {
-  type: colorTypes,
+  type: HandType,
   img: string,
   className?: string
+  onClick?(ev: MouseEvent<HTMLButtonElement> ): void
+  show?: boolean
 }

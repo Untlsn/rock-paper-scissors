@@ -2,13 +2,14 @@ import React from 'react';
 import * as S from './style';
 import { HandCircleProps } from '@atoms/HandCircle/types';
 
-const HandCircle = ({ type, img, className }: HandCircleProps) => {
+const HandCircle = ({ type, img, show, ...rest }: HandCircleProps) => {
   return (
-    <div className={className}>
+    <S.SuperWrapper {...rest}>
       <S.Wrapper type={type}>
+        <S.HardLight show={show} />
         <S.Image src={img} />
       </S.Wrapper>
-    </div>
+    </S.SuperWrapper>
   );
 };
 
