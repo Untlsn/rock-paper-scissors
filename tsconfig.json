@@ -7,6 +7,7 @@
     "jsx": "react",
     "baseUrl": "src",
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "paths": {
       "~/*": ["*"],
       "@pages/*": ["pages/*"],

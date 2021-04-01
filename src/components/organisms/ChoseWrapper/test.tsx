@@ -1,8 +1,11 @@
+import * as React from 'react';
 import * as H from './helpers';
 import iconRock from '@assets/icons/icon-rock.svg';
 import iconPaper from '@assets/icons/icon-paper.svg';
 import iconScissors from '@assets/icons/icon-scissors.svg';
-import {HouseMove} from '@organisms/ChoseWrapper/types';
+import { HouseMove } from '@organisms/ChoseWrapper/types';
+import { shallow } from 'enzyme';
+import ChoseWrapper from './index';
 
 const fakeSetHouseMove = (value: HouseMove) => {
   expect(value).toEqual({
@@ -80,6 +83,10 @@ describe('ChoseWrapper', () => {
       });
     });
   });
-
+  describe('component', () => {
+    it('render', () => {
+      shallow(<ChoseWrapper hand='rock' onClick={() => {}} />);
+    });
+  });
 });
 

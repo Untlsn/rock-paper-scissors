@@ -1,4 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React from 'react';
+import { useContext, useEffect, useState } from 'react';
 import * as S from './style';
 import { ChoseWrapperProps, HouseMove } from '@organisms/ChoseWrapper/types';
 import * as H from './helpers';
