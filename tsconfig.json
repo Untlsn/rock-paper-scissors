@@ -21,7 +21,8 @@
       "@components/*": ["components/*"],
       "@atoms/*": ["components/atoms/*"],
       "@molecules/*":  ["components/molecules/*"],
-      "@organisms/*": ["components/organisms/*"]
+      "@organisms/*": ["components/organisms/*"],
+      "@view/*": ["components/view/*"]
     }
   },
   "exclude": [

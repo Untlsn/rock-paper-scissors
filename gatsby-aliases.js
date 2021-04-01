@@ -22,10 +22,10 @@ module.exports = {
       ]),
       ...createAlias('src/assets', ['style']),
       ...createAlias('src/components', [
-        '.',
         'atoms',
         'molecules',
         'organisms',
+        'view',
       ])
     },
     extensions: ['js', 'ts', 'tsx']
