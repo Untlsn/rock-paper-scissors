@@ -3,7 +3,7 @@ import * as S from './style';
 import Rules from '@organisms/Rules';
 import Header from '@organisms/Header';
 import HandWrapper from '@molecules/HandsWrapper';
-import { ChoseStateType } from '@components/View/MainView/types';
+import { ChoseStateType } from '@view/MainView/types';
 import ChoseWrapper from '@organisms/ChoseWrapper';
 
 const MainView = () => {
