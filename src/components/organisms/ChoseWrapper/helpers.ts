@@ -4,37 +4,18 @@ import iconScissors from '@assets/icons/icon-scissors.svg';
 import { HandType } from '@atoms/HandCircle/types';
 import { HouseMove } from '@organisms/ChoseWrapper/types';
 
+const randHandData: HandType[] = ['rock', 'scissors', 'paper'];
+export const randHand = () => randHandData[Math.floor(
+  Math.random() * 3
+)];
 
-const randHand = (): HandType => {
-  const num = Math.random() * 3;
-  if(num < 1) return 'rock';
-  if(num < 2) return 'scissors';
-  return 'paper';
-};
 
-const compereHands = (hand1: HandType, hand2: HandType) => {
+export const compereHands = (hand1: HandType, hand2: HandType) => {
+  if (hand1 == hand2) return 0;
   switch (hand1) {
-    case 'paper': {
-      switch (hand2) {
-        case 'paper': return 0;
-        case 'rock': return 1;
-        default: return -1; // scissors
-      }
-    }
-    case 'rock': {
-      switch (hand2) {
-        case 'paper': return -1;
-        case 'rock': return 0;
-        default: return 1; // scissors
-      }
-    }
-    default: { // scissors
-      switch (hand2) {
-        case 'paper': return 1;
-        case 'rock': return -1;
-        default: return 0; // scissors
-      }
-    }
+    case 'rock': return hand2 == 'scissors' ? 1 : -1;
+    case 'paper': return hand2 == 'rock' ? 1 : -1;
+    default: return hand2 == 'paper' ? 1 : -1;  // scissors
   }
 };
 
@@ -59,7 +40,7 @@ export const timeoutFn = (
   }, timeoutWait);
 });
 
-export const promptWin = (win?: number) => {
+export const promptWin = (win: number|undefined) => {
   switch (win) {
     case -1: return 'you lose!';
     case 1: return 'you win!';
@@ -73,8 +54,7 @@ export const imgByName: Record<HandType, string> = {
   'scissors': iconScissors,
   'paper': iconPaper
 };
-
-export const setHand = (hand: HandType) => ({
+export const getHand = (hand: HandType) => ({
   type: hand,
   img: imgByName[hand]
 });

@@ -18,7 +18,7 @@ const ChoseWrapper = ({ hand, onClick }: ChoseWrapperProps) => {
     <S.Wrapper>
       <S.Side>
         <S.Title>you picked</S.Title>
-        <HandCircle {...H.setHand(hand)} show={winHand == 1} />
+        <HandCircle {...H.getHand(hand)} show={winHand == 1} />
       </S.Side>
       <S.WhoWin>
         <BigText>{H.promptWin(winHand)}</BigText>
@@ -27,7 +27,7 @@ const ChoseWrapper = ({ hand, onClick }: ChoseWrapperProps) => {
       <S.Side>
         <S.Title>the house picked</S.Title>
         {houseMove.is
-          ? <S.RotateHandCircle {...H.setHand(houseMove.hand)} show={winHand == -1} />
+          ? <S.RotateHandCircle {...H.getHand(houseMove.hand)} show={winHand == -1} />
           : <S.HandShadow />}
       </S.Side>
     </S.Wrapper>
