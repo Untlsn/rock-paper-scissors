@@ -1,7 +1,7 @@
 # Rock Paper Scissors [![Netlify Status](https://api.netlify.com/api/v1/badges/9be89a66-3285-4faa-956d-e6e206cf53fa/deploy-status)](https://app.netlify.com/sites/gracious-benz-42c9bf/deploys)
 Own version of project from [Rock, Paper, Scissors game](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH) from Frontend Mentor create in gatsby. Simple side to play rock paper scissors with bot (named home)
 ## Netlify page
-*https://peaceful-shaw-608542.netlify.app/*
+*https://gracious-benz-42c9bf.netlify.app/*
 # Start
 - For run only on device
   - npm
